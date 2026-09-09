@@ -94,3 +94,28 @@ header {
 #uefa img {
   width: 120px;
 }
+#champions {
+  background-image: url(/img/champions.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#europa {
+  background-image: url(/img/europa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#cofnference {
+  background-image: url(/img/conference.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  #eurocopa {
+    background-image: url(/img/eurocopa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #nations {
+    background-image: url(/img/nations.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
