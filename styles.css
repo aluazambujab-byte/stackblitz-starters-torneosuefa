@@ -94,6 +94,15 @@ header {
 #uefa img {
   width: 120px;
 }
+
+#intro {
+  background-image: url(https://images.creativefabrica.com/products/previews/2023/12/21/n9vKufokR/2ZrSMjEONV3EEWyoQaiJ2QaGZaQ-desktop.jpg);
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
+  box-shadow: 15px 15px #000;
+  border-radius: 15px;
+}
+
 #champions {
   background-image: url(/img/champions.png);
   background-size: cover;
