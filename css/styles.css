@@ -49,26 +49,28 @@ footer {
   background-color: #000;
   color: white;
   font-size: smaller;
-  display: flex; /*muestra el contenido ajustado*/
+  display: flex; /* muestra el contenido ajustado */
   flex-wrap: wrap;
-  /*align-items: center;
-  justify-content: center;*/
   justify-content: space-evenly;
 }
+
 #colegio {
   width: 33%;
-  background-color: red
+  background-color: red; /* Se agregó el punto y coma faltante */
   padding: 5px;
 }
+
 footer a {
   color: #aaa;
 }
+
 #alumnos {
   width: 33%;
   background-color: yellow;
   color: #555;
   padding: 5px;
 }
+
 #sociales {
   width: 33%;
   background-color: lightblue;
@@ -82,49 +84,55 @@ footer a {
 header {
   background-color: black;
 }
+
 #logos {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
 }
+
 #copa img {
   width: 100px;
 }
+
 #uefa img {
   width: 120px;
 }
 
 #intro {
   background-image: url(https://images.creativefabrica.com/products/previews/2023/12/21/n9vKufokR/2ZrSMjEONV3EEWyoQaiJ2QaGZaQ-desktop.jpg);
-  /*background-repeat: no-repeat;
-  background-size: cover;*/
   box-shadow: 15px 15px #000;
   border-radius: 15px;
 }
 
+/* Rutas actualizadas para salir de la carpeta /css con "../" */
 #champions {
-  background-image: url(/img/champions.png);
+  background-image: url(../img/champions.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #europa {
-  background-image: url(/img/europa.png);
+  background-image: url(../img/europa.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-#cofnference {
-  background-image: url(/img/conference.png);
+
+#conference { /* Se corrigió la ortografía: de #cofnference a #conference */
+  background-image: url(../img/conference.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-  #eurocopa {
-    background-image: url(/img/eurocopa.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  #nations {
-    background-image: url(/img/nations.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+
+#eurocopa {
+  background-image: url(../img/eurocopa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nations {
+  background-image: url(../img/nations.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
